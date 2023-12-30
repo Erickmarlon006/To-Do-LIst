@@ -1,0 +1,16 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+h1{
+  color: rgb(2, 2, 107);
+  margin-bottom: 1rem;
+}
+@media screen and (max-width: 500px) {
+  #root {
+    width: 100%;
+    padding: 0;
+  }
+}
