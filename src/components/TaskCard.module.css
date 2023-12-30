@@ -1,0 +1,59 @@
+.task_card {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 2rem;
+  border-bottom: 2px solid rgb(197, 193, 193);
+  border-radius: 0.4rem;
+}
+.task_card h4 {
+  color: white;
+}
+.task_card svg {
+  font-size: 1.4em;
+}
+.task_card button {
+  border: none;
+  height: 35px;
+  width: 35px;
+  cursor: pointer;
+  margin-left: 10px;
+  border-radius: 0.4rem;
+  background-color: white;
+  color: blue;
+}
+.task_card button:hover {
+  background-color: blue;
+  border: 1px solid rgb(197, 193, 193);
+  color: white;
+}
+.task_card button.active{
+  background-color: blue;
+  border: 1px solid rgb(197, 193, 193);
+  color: white;
+}
+.task_card input[type="text"]{
+  width: 70%;
+  height: 40px;
+}
+.task_card .update_btn{
+  height: 40px;
+  font-family: "Poppins", sans-serif;
+  width: 100px;
+}
+@media screen and (max-width: 500px) {
+  .task_card {
+    padding-inline: 1rem;
+    height: 70px;
+  }
+  .task_card button{
+    height: 40px;
+    width: 40px;
+  }
+  .task_card h4{
+    font-size: 1.2em;
+  
+  }
+}
