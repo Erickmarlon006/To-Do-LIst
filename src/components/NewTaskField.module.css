@@ -1,0 +1,9 @@
+input {
+  height: 50px;
+  width: 300px;
+  border-radius: 0.4rem;
+  outline: none;
+  border: none;
+  padding-inline: 10px;
+  font-family: "Poppins", sans-serif;
+}
