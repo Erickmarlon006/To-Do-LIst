@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  background-color: blue;
+  border-radius: 0.4rem;
+}
+.append_tasks_area {
+  display: flex;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+@media screen and (max-width: 500px) {
+  .append_tasks_area {
+    padding-inline: 1rem;
+  }
+  input[type="text"]{
+    width: calc(100% - 50px);
+  }
+}
